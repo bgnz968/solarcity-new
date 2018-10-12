@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "solarcitynew-20180921142859-authRole",
+            "UnauthRoleArn": "arn:aws:iam::302702814820:role/solarcitynew-20180921142859-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::302702814820:role/solarcitynew-20180921142859-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "solarcitynew-20180921142859-deployment",
+            "UnauthRoleName": "solarcitynew-20180921142859-unauthRole",
+            "StackName": "solarcitynew-20180921142859",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:302702814820:stack/solarcitynew-20180921142859/195d85c0-bd46-11e8-8adb-50a68669984a"
+        }
+    }
+}

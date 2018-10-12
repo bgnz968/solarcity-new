@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "solarcitynew-20180921142859-authRole",
+			"UnauthRoleArn": "arn:aws:iam::302702814820:role/solarcitynew-20180921142859-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::302702814820:role/solarcitynew-20180921142859-authRole",
+			"Region": "ap-northeast-1",
+			"DeploymentBucketName": "solarcitynew-20180921142859-deployment",
+			"UnauthRoleName": "solarcitynew-20180921142859-unauthRole",
+			"StackName": "solarcitynew-20180921142859",
+			"StackId": "arn:aws:cloudformation:ap-northeast-1:302702814820:stack/solarcitynew-20180921142859/195d85c0-bd46-11e8-8adb-50a68669984a"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/solarcitynew-20180921142859-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-09-21T02:34:05.843Z",
+			"output": {
+				"S3BucketSecureURL": "https://solarcitynew-20180921143217--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://solarcitynew-20180921143217--hostingbucket.s3-website-ap-northeast-1.amazonaws.com",
+				"Region": "ap-northeast-1",
+				"HostingBucketName": "solarcitynew-20180921143217--hostingbucket"
+			},
+			"lastPushDirHash": "khl3qxM/BPNM3tI1nhIF6cQLP/k="
+		}
+	}
+}
